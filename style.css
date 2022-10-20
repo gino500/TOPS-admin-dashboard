@@ -62,7 +62,6 @@
     display: grid;
     grid-area: 1 / 2 / 2 / 4;
     grid-template-columns: 2fr 1.3fr;
-    /* grid-template-rows: 1.3fr 2fr; */
     background-image: linear-gradient(to right, #b6fbff, #83a4d4);
 }
     
@@ -171,8 +170,7 @@ input:focus{
 
 .articles {
     display: grid;
-    grid-template-rows:subgrid;
-    /* grid-area: 2 / 2 / 3 / 3; */
+    grid-template-rows: 57px 1fr;
 }
 
 .articles,
@@ -191,7 +189,7 @@ input:focus{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr); 
     gap: 1.4rem;
-    margin: 3.5rem 0 3rem 1.5rem;
+    margin: 0 0 3rem 1.5rem;
 }
 
  .card {
